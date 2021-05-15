@@ -33,6 +33,8 @@ Lista todos os arquivos e pastas do diretório atual. É preciso identificar se 
 
 - Após compilação, para a execução do programa, informar o nome do anúncio correspondente, informar o nome do cliente e as datas de início e término, correspondente a dias (em números);
 
-- Por fim, informar o valor investido por dia em reais.
+- Por fim, informar o valor investido por dia em reais;
 
-- Ao final da execução do programa, serão recebidos os valores de valor total investido, quantidade máxima de visualizações, quantidade máxima de cliques e de compartilhamentos.
+- Ao final da execução do programa, serão recebidos os valores de valor total investido, quantidade máxima de visualizações, quantidade máxima de cliques e de compartilhamentos;
+
+- No arquivo CadastroTeste.java é possível executar o teste unitário do sistema de cadastros.
