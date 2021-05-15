@@ -1,14 +1,32 @@
-## Getting Started
+## Instruções de como compilar e executar o programa:
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Windows: Inicialmente, pressione a tecla Win + R; digite cmd e tecle enter. Após isso digite alguns comandos:
+- cd Desktop
+O comando "cd" permite entrar no diretório "Desktop".
 
-## Folder Structure
+
+- java -version
+Exibe a versão do Java instalado em sua máquina (comando opcional).
+
+
+- dir
+Lista todos os arquivos e pastas do diretório atual. Você precisa identificar se está presente o Exemplo.java que iremos compilar.
+
+
+- javac -cp . Exemplo.java
+•	O comando javac compila o arquivo Java.
+•	O argumento -cp (classpath) destina em qual diretório a classe deverá ser armazenada. Nesse caso -cp aponta para o "." que é o diretório atual. Se nenhum diretório for especificado, com a omissão do argumento, então é armazenado no diretório atual. Portanto, javac -cp . Exemplo.java é equivalente a javac Exemplo.java.
+•	Exemplo.java é o arquivo que será compilado.
+
+- java Exemplo
+•	Esse comando serve para chamar a JVM, que realizará todos aqueles passos de verificação e então executará nosso programa escrito em Java, se estiver tudo certo. 
+
+
+
+## Instruções de utilização:
 
 The workspace contains two folders by default, where:
 
 - `src`: the folder to maintain sources
 - `lib`: the folder to maintain dependencies
 
-## Dependency Management
-
-The `JAVA DEPENDENCIES` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-pack/blob/master/release-notes/v0.9.0.md#work-with-jar-files-directly).
