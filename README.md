@@ -1,6 +1,6 @@
 ## Instruções de como compilar e executar o programa:
 
-Windows: Após salvar o arquivo .java, pressione a tecla Win + R; digite cmd e tecle enter. Após isso digite alguns comandos:
+Windows: Após salvar o arquivo .java, pressione a tecla Win + R; digite cmd e tecle enter. Após isso digite os seguintes comandos:
 ### - cd Desktop:
 o comando "cd" permite entrar no diretório "Desktop".
 
