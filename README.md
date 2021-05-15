@@ -1,19 +1,20 @@
 ## Instruções de como compilar e executar o programa:
 
 Windows: Inicialmente, pressione a tecla Win + R; digite cmd e tecle enter. Após isso digite alguns comandos:
-- cd Desktop:
+### - cd Desktop:
 o comando "cd" permite entrar no diretório "Desktop".
 
 
-- java -version:
+### - java -version:
 exibe a versão do Java instalado em sua máquina (comando opcional).
 
 
-- dir:
+### - dir:
 lista todos os arquivos e pastas do diretório atual. É preciso identificar se está presente o Exemplo.java que irá compilar.
 
 
-- javac -cp . Exemplo.java:
+### - javac -cp . Exemplo.java:
+
 •	O comando javac compila o arquivo Java.
 •	O argumento -cp (classpath) destina em qual diretório a classe deverá ser armazenada. Nesse caso -cp aponta para o "." que é o diretório atual. Se nenhum diretório for especificado, com a omissão do argumento, então é armazenado no diretório atual. Portanto, javac -cp . Exemplo.java é equivalente a javac Exemplo.java.
 •	Exemplo.java é o arquivo que será compilado.
