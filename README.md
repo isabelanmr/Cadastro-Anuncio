@@ -16,7 +16,9 @@ Lista todos os arquivos e pastas do diretório atual. É preciso identificar se 
 ### - javac -cp . Exemplo.java:
 
 •	O comando javac compila o arquivo Java.
+
 •	O argumento -cp (classpath) destina em qual diretório a classe deverá ser armazenada, javac -cp . Exemplo.java equivale a javac Exemplo.java.
+
 •	Exemplo.java é o arquivo que será compilado.
 
 ### - java Exemplo:
