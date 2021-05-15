@@ -29,7 +29,7 @@ Lista todos os arquivos e pastas do diretório atual. É preciso identificar se 
 
 ## Instruções de utilização:
 
-- No script Cadastro.java temos o sistema de cadastro de anúncios, com a declaração das variáveis em questão, sendo e "a" e "b" as porcentagens de cliques e compartilhamentos após os cliques;
+- No script Cadastro.java, dentro da pasta 'src', temos o sistema de cadastro de anúncios, com a declaração das variáveis em questão, sendo e "a" e "b" as porcentagens de cliques e compartilhamentos após os cliques;
 
 - Após compilação, para a execução do programa, informar o nome do anúncio correspondente, informar o nome do cliente e as datas de início e término, correspondente a dias (em números);
 
